@@ -1,0 +1,57 @@
+body {
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin-top: 5rem;
+}
+
+button {
+  min-width: 5rem;
+  min-height: 5rem;
+  border-radius: 50%;
+  font-size: 2rem;
+  color: white;
+  background-color: rgb(51, 50, 50);
+  border: none;
+  margin: 0.5rem 0 0 0.5rem;
+  transition: 300ms;
+}
+
+button:hover {
+  background-color: rgb(72, 72, 72);
+}
+
+.zero {
+  min-width: 10.7rem;
+  border-radius: 3rem;
+}
+
+.first button {
+  background-color: rgb(152, 151, 151);
+  color: black;
+}
+
+.sheet {
+  display: flex;
+  min-height: 5rem;
+  font-size: 4rem;
+  justify-content: flex-end;
+  margin-right: 1.5rem;
+}
+
+#divide,
+.operator {
+  background-color: rgb(210, 140, 10);
+  color: white;
+}
+
+#divide:hover,
+.operator:hover {
+  background-color: rgb(238, 160, 15);
+}
+
+.first button:hover {
+  background-color: rgb(191, 190, 190);
+}
